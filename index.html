@@ -9,12 +9,28 @@
 </head>
 
 <body>
+    <!-- PAROLA PALINDROMA -->
     <div id="container">
+        <h2>Parola Palindroma</h2>
         <label for="text">Inserisci Parola</label>
         <input type="text" id="input_text">
-        <button>Invia</button>
+        <button id="button">Invia</button>
     </div>
 
+    <!-- NUMERO PARI E DISPARI -->
+    <div>
+        <div id="container_2">
+            <h2>Numero Pari e Dispari</h2>
+            <label for="scelta">Scegli pari o dispari:</label>
+            <select name="numero" id="scelta">
+                <option value="pari">Pari</option>
+                <option value="dispari">Dispari</option>
+            </select>
+            <label for="numero">Scegli un numero da 1 a 5:</label>
+            <input type="number" id="numero" min="1" max="5">
+            <button id="button_2">Start</button>
+        </div>
+    </div>
 
     <script src="./assets/js/main.js"></script>
 </body>
